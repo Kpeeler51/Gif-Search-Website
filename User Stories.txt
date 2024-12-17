@@ -1,0 +1,9 @@
+1:As a website user, I want to search for GIFs by entering keywords
+so that I can find and share gifs that match my needs.
+
+
+2: As a website user, I want to view gifs in a responsive grid layout
+so that I can view them on any device.
+
+3: As a website user, I want to copy a link to a specific GIF
+so that I can easily share it with others.
