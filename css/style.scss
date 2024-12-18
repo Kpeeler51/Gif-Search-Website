@@ -1,0 +1,43 @@
+$primary-color: #240115;
+$secondary-color: #cec3c1;
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: $primary-color;
+    color: $secondary-color;
+    flex-direction: column;
+}
+
+nav {
+    display:flex;
+    background-color: $secondary-color;
+    height: 3rem;
+
+    .navbar-list, .logo {
+        display: flex;
+        width: 100%;
+    }
+
+    .logo {
+        font-size: xx-large;
+    }
+
+    .navbar-list{
+        justify-content: right;
+    }
+
+    .navbar-item {
+        margin: 5rem;
+        font-size: 1.3rem;
+    }
+}
+
+.title, .search-form {
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #240115;
+  color: #cec3c1;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  background-color: #cec3c1;
+  height: 3rem;
+}
+nav .navbar-list, nav .logo {
+  display: flex;
+  width: 100%;
+}
+nav .logo {
+  font-size: xx-large;
+}
+nav .navbar-list {
+  justify-content: right;
+}
+nav .navbar-item {
+  margin: 5rem;
+  font-size: 1.3rem;
+}
+
+.title, .search-form {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
