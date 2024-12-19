@@ -29,8 +29,18 @@ nav .navbar-item {
   font-size: 1.3rem;
 }
 
-.title, .search-form {
+.search-container {
   text-align: center;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.search-button {
+  margin-left: 0.25rem;
 }
 
 /*# sourceMappingURL=style.css.map */

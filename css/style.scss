@@ -38,6 +38,16 @@ nav {
     }
 }
 
-.title, .search-form {
+.search-container {
     text-align: center;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.search-button {
+    margin-left: 0.25rem;
 }
