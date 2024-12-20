@@ -152,6 +152,19 @@ footer {
     justify-content: center;
     flex-direction: column;
   }
+  .giphylogo {
+    width: 70%;
+    float: inherit;
+  }
+  .flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .flex-grid-item {
+    width: 100%;
+    margin: 0.5rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

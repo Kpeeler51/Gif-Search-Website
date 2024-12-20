@@ -134,45 +134,61 @@ footer {
 }
 
 @media screen and (max-width:320px) {
-    nav {
-        display:flex;
-        flex-direction: column;
-        background-color: $secondary-color;
-        height: 100%;
-    
-        ul {
-            list-style: none;
-        }
-    
-        .navbar-list, .logo {
-            display: flex;
+        nav {
+            display:flex;
             flex-direction: column;
-            justify-content: center;
-            text-align: center;
+            background-color: $secondary-color;
+            height: 100%;
+        
+            ul {
+                list-style: none;
+            }
+        
+            .navbar-list, .logo {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+            }
+        
+            .navbar-item :hover {
+                color:white;
+            }
+        
+            .navbar-item {
+                margin: 0.4rem 5rem;
+                font-size: 25px;
+                color:black;
+                text-align: center;
+            }
         }
-    
-        .navbar-item :hover {
-            color:white;
-        }
-    
-        .navbar-item {
-            margin: 0.4rem 5rem;
-            font-size: 25px;
-            color:black;
-            text-align: center;
-        }
+
+        .search-form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 
-    .search-form {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+    .contact-info {
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 
-.contact-info {
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-}
+    .giphylogo {
+        width: 70%;
+        float:inherit;
+    }
+
+    .flex-grid {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+    
+    .flex-grid-item {
+        width: 100%;
+        margin: 0.5rem;
+    }
 
 }
