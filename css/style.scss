@@ -40,14 +40,14 @@ nav {
     }
 }
 
+nav, footer {
+    color:black;
+}
+
 footer {
     text-align: center;
     margin-top:auto;
     background-color: $secondary-color;
-}
-
-footer, nav {
-    color:black;
 }
 
 .title, .logo {
@@ -109,4 +109,9 @@ footer, nav {
 
 .contact-link {
     margin: 1.5rem 5%;
+}
+
+.giphylogo {
+    width: 15%;
+    float: right;
 }
