@@ -10,7 +10,7 @@ $(document).ready(()=>{
         
         $.ajax({
             url:
-            `https://api.giphy.com/v1/gifs/search?api_key=ZeZBqIUsPLa69oSOp4pDTgvbAiw5S29F&q=${searchTerm}&limit=${gifcount}&lang=en&bundle=messaging_non_clips`
+            `https://api.giphy.com/v1/gifs/search?api_key=ZeZBqIUsPLa69oSOp4pDTgvbAiw5S29F&q=${searchTerm}&limit=${gifcount}&lang=en&bundle=messaging_non_clips&rating=r`
         })
         .done((response) => {
             let gifData = response.data;
