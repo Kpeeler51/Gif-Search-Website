@@ -6,7 +6,7 @@
 body {
   background-color: #240115;
   color: #cbc2cd;
-  flex-direction: column;
+  font-family: "Antic Slab", serif;
 }
 
 nav {
@@ -18,15 +18,18 @@ nav .navbar-list, nav .logo {
   display: flex;
   width: 100%;
 }
-nav .logo {
-  font-size: xx-large;
-}
 nav .navbar-list {
   justify-content: right;
 }
 nav .navbar-item {
-  margin: 5rem;
-  font-size: 1.3rem;
+  margin: 0.4rem 5rem;
+  font-size: 25px;
+}
+
+.title, .logo {
+  font-size: 40px;
+  font-family: "Noto Sans", "sans serif";
+  font-weight: 400;
 }
 
 .search-container {
