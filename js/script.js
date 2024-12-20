@@ -1,6 +1,9 @@
 $(document).ready(()=>{
+
     let apikey = "placeholderkey";
+
     $(".search-form").submit(()=>{
+        $(".gifcontainer").empty();
         event.preventDefault();
         let searchTerm = $("#gifinput").val();
         let gifcount = $("#numberinput").val();
