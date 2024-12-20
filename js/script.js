@@ -15,7 +15,7 @@ $(document).ready(()=>{
                 let gifImg= e.images.fixed_width.webp
                 let gifAlt = e.alt_text
                 $(".gifcontainer").append(`
-                    <img src="${gifImg}" 
+                    <img class="flex-grid-item" src="${gifImg}" 
                     alt="gif of ${gifAlt}"/>
                     `)
             })
