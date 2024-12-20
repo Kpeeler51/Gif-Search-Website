@@ -68,4 +68,22 @@ nav .navbar-item {
   margin: 0.5rem;
 }
 
+.info-text {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.contact-container {
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-link {
+  margin: 1.5rem 5%;
+}
+
 /*# sourceMappingURL=style.css.map */
