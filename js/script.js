@@ -11,11 +11,12 @@ $(document).ready(()=>{
         })
         .done((response) => {
             let gifData = response.data;
-            $.each(gifData, (i, e)=>{
+            $.each(gifData, (_i, e)=>{
                 let gifImg= e.images.fixed_width.webp
+                let gifAlt = e.alt_text
                 $(".gifcontainer").append(`
                     <img src="${gifImg}" 
-                    alt="gif of ${searchTerm}"/>
+                    alt="gif of ${gifAlt}"/>
                     `)
             })
 
