@@ -112,6 +112,7 @@ footer {
 .info-text {
     text-align: center;
     font-size: 1.2rem;
+    margin:2rem
 }
 
 .contact-container {
@@ -167,4 +168,11 @@ footer {
     justify-content: center;
     flex-direction: column;
 }
+
+.contact-info {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 }
