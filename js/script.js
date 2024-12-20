@@ -15,7 +15,7 @@ $(document).ready(()=>{
         .done((response) => {
             let gifData = response.data;
             $.each(gifData, (_i, e)=>{
-                let gifImg= e.images.fixed_width.webp
+                let gifImg= e.images.original.webp
                 let gifAlt = e.alt_text
                 $(".gifcontainer").append(`
                     <img class="flex-grid-item" src="${gifImg}" 

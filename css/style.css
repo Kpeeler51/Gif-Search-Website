@@ -56,6 +56,13 @@ nav .navbar-item {
 
 .flex-grid {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flex-grid-item {
+  width: 20%;
+  margin: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
