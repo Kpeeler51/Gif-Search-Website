@@ -5,13 +5,13 @@
 
 body {
   background-color: #240115;
-  color: #cec3c1;
+  color: #cbc2cd;
   flex-direction: column;
 }
 
 nav {
   display: flex;
-  background-color: #cec3c1;
+  background-color: #cbc2cd;
   height: 3rem;
 }
 nav .navbar-list, nav .logo {
