@@ -20,14 +20,29 @@ body {
     flex-direction: column;
 }
 
+
+a {
+    color:inherit;
+    text-decoration: none;
+}
+
+
 nav {
     display:flex;
     background-color: $secondary-color;
     height: 3rem;
 
+    ul {
+        list-style: none;
+    }
+
     .navbar-list, .logo {
         display: flex;
         width: 100%;
+    }
+
+    .navbar-item :hover {
+        color:white;
     }
 
     .navbar-list{
@@ -37,6 +52,7 @@ nav {
     .navbar-item {
         margin: 0.4rem 5rem;
         font-size: 25px;
+        color:black;
     }
 }
 
@@ -112,6 +128,6 @@ footer {
 }
 
 .giphylogo {
-    width: 15%;
+    width: 12%;
     float: right;
 }
