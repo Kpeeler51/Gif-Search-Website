@@ -15,6 +15,9 @@ body {
     background-color: $primary-color;
     color: $secondary-color;
     font-family: $body-font;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
@@ -35,6 +38,11 @@ nav {
         margin: 0.4rem 5rem;
         font-size: 25px;
     }
+}
+
+footer {
+    text-align: center;
+    margin-top:auto;
 }
 
 .title, .logo {

@@ -7,6 +7,9 @@ body {
   background-color: #240115;
   color: #cbc2cd;
   font-family: "Antic Slab", serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 nav {
@@ -24,6 +27,11 @@ nav .navbar-list {
 nav .navbar-item {
   margin: 0.4rem 5rem;
   font-size: 25px;
+}
+
+footer {
+  text-align: center;
+  margin-top: auto;
 }
 
 .title, .logo {
