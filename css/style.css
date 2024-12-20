@@ -32,6 +32,11 @@ nav .navbar-item {
 footer {
   text-align: center;
   margin-top: auto;
+  background-color: #cbc2cd;
+}
+
+footer, nav {
+  color: black;
 }
 
 .title, .logo {

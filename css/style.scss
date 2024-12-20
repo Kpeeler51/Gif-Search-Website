@@ -43,6 +43,11 @@ nav {
 footer {
     text-align: center;
     margin-top:auto;
+    background-color: $secondary-color;
+}
+
+footer, nav {
+    color:black;
 }
 
 .title, .logo {
