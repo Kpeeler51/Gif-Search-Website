@@ -93,6 +93,10 @@ footer {
   margin: 0.5rem;
 }
 
+.image-copy {
+  cursor: pointer;
+}
+
 .info-text {
   text-align: center;
   font-size: 1.2rem;

@@ -18,11 +18,20 @@ $(document).ready(()=>{
                 let gifImg= e.images.original.webp
                 let gifAlt = e.alt_text
                 $(".gifcontainer").append(`
-                    <img class="flex-grid-item" src="${gifImg}" 
+                    <img class="flex-grid-item image-copy" src="${gifImg}" 
                     alt="gif of ${gifAlt}"/>
                     `)
             })
 
         })
     })
+    $(document).on('click', '.image-copy', function () {
+        const imageUrl = $(this).attr('src');
+
+        navigator.clipboard.writeText(imageUrl).then(function () {
+            alert('Image link copied to clipboard: ' + imageUrl);
+        }).catch(function (err) {
+            console.error('Failed to copy image link: ', err);
+        });
+    });
 })
