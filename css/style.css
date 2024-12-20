@@ -116,4 +116,36 @@ footer {
   float: right;
 }
 
+@media screen and (max-width: 320px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #cbc2cd;
+    height: 100%;
+  }
+  nav ul {
+    list-style: none;
+  }
+  nav .navbar-list, nav .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  nav .navbar-item :hover {
+    color: white;
+  }
+  nav .navbar-item {
+    margin: 0.4rem 5rem;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+  }
+  .search-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

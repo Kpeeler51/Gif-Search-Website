@@ -131,3 +131,40 @@ footer {
     width: 12%;
     float: right;
 }
+
+@media screen and (max-width:320px) {
+    nav {
+        display:flex;
+        flex-direction: column;
+        background-color: $secondary-color;
+        height: 100%;
+    
+        ul {
+            list-style: none;
+        }
+    
+        .navbar-list, .logo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+    
+        .navbar-item :hover {
+            color:white;
+        }
+    
+        .navbar-item {
+            margin: 0.4rem 5rem;
+            font-size: 25px;
+            color:black;
+            text-align: center;
+        }
+    }
+
+    .search-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+}
