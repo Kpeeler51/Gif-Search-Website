@@ -33,7 +33,7 @@ $(document).ready(()=>{
 
     // When user clicks on a GIF, it's copied to clipboard.
     // The user is alerted when text is copied to the clipboard.
-    $(document).on('click', '.image-copy', function () {
+    $(document).on('click', '.js-image-copy', function () {
         const imageUrl = $(this).attr('src');
 
         navigator.clipboard.writeText(imageUrl).then(function () {
