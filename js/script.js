@@ -25,7 +25,7 @@ $(document).ready(()=>{
 
         })
     })
-    $(document).on('click', '.js-image-copy', function () {
+    $(document).on('click', '.image-copy', function () {
         const imageUrl = $(this).attr('src');
 
         navigator.clipboard.writeText(imageUrl).then(function () {
