@@ -18,14 +18,14 @@ $(document).ready(()=>{
                 let gifImg= e.images.original.webp
                 let gifAlt = e.alt_text
                 $(".gifcontainer").append(`
-                    <img class="flex-grid-item image-copy" src="${gifImg}" 
+                    <img class="flex-grid-item js-image-copy" src="${gifImg}" 
                     alt="gif of ${gifAlt}"/>
                     `)
             })
 
         })
     })
-    $(document).on('click', '.image-copy', function () {
+    $(document).on('click', '.js-image-copy', function () {
         const imageUrl = $(this).attr('src');
 
         navigator.clipboard.writeText(imageUrl).then(function () {

@@ -2,15 +2,20 @@
 <html lang="en">
 
 <head>
+    <!-- Required meta-tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Browser title -->
     <title>Gif Search</title>
+    <!-- Google Fonts: Antic Slab and Noto Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+        <!-- CSS link -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- jQuery link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
     </script>
 </head>
@@ -32,9 +37,11 @@
             </ul>
         </nav>
 
+        <!-- Searchbar container for customization and website header. -->
         <div class="search-container">
             <h1 class="title">Find a Gif</h1>
 
+            <!-- Search form. javascript scripts linked to js-search-form -->
             <form class="search-form js-search-form">
                 <label
                  class="search-label" for="gifinput">Search for GIF:</label>
@@ -53,6 +60,7 @@
         </div>
     </header>
 
+    <!-- Empty container that gifs will be placed inside of. -->
     <div class="gifcontainer flex-grid"></div>
 
     <section id="about" class="info-text">
@@ -84,11 +92,13 @@
 
     <footer>
         <p>&copy; 2022 Gif Search. All rights reserved.</p>
+        <!-- Giphy logo required by Giphy API TOS. -->
         <img class="giphylogo"
          src="./assets/images/Giphycopyright-640black.png"
           alt="Powered by Giphy">
     </footer>
 
+    <!-- Javascript Link -->
     <script src="./js/script.js"></script>
 </body>
 
